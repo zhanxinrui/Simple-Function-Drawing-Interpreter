@@ -1,13 +1,20 @@
 # Simple-Function-Drawing-Interpreter
 
 ### All functions that have implemented 
-rot is 0;			-- set the rotation arc(angle is 0)
-scale is (1, 1);		-- set the ratio of Horizontal and vertical coordinates
-color is (100,100,100);  --set R,G,B color
-width is 2;		 --set the lineWidth
-for T from 0 to 200 step 1 draw (t, 0);  -- Horizontal trace（0）
-for T from 0 to 150 step 10 draw (0, -t);  -- coordinates trace （0）
-for T from 0 to 5 step 1 draw (t, -t);    
+rot is 0;			-- set the rotation arc(angle is 0)  
+
+scale is (1, 1);		-- set the ratio of Horizontal and vertical coordinates  
+
+color is (100,100,100);  --set R,G,B color  
+
+width is 2;		 --set the lineWidth  
+
+for T from 0 to 200 step 1 draw (t, 0);  -- Horizontal trace（0）  
+
+for T from 0 to 150 step 10 draw (0, -t);  -- coordinates trace （0）  
+
+for T from 0 to 5 step 1 draw (t, -t);      
+
 
 --- 
 ###PEGJS
