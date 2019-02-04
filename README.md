@@ -23,6 +23,7 @@ for T from 0 to 5 step 1 draw (t, -t);
 - and build the .pegjs at https://pegjs.org/online conviently. (if you don't use node you can simpley input the Parser variable:window.MY_PARSER_NAME and then export the .js ,finally use the <script src="..">to load)
 - call the parser: window.MY_PARSER_NAME.parse(str_wait_to_parse) which returns a json.
 
-view the effect http://zhanxinrui.top/media/html/sfdi/index.html
 
-
+---
+###
+view the effect http://html.4ttt.top/sfdi/index.html
